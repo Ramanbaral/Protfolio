@@ -35,7 +35,7 @@
   <body>
     <!-- video cover -->
     <div class="cover">
-      <img src="./images/img.jpg" alt="Image">
+      <img src="./images/smallimg.jpg" alt="Image" id="coverimg">
 
       <div class="content">
         <h1 id="greet">Hi,</h1>
@@ -55,5 +55,17 @@
     </div>
 
     <script src="./js/engine.js"></script>
+    
+    <!-- script to load cover image faster -->
+
+    <script>
+      let image = document.getElementById('coverimg')
+      let bigimage = document.createElement('img')
+      bigimage.onload = function(){
+        image.src = this.src
+      }
+      bigimage.src = './images/img.jpg'
+    </script>
+
   </body>
 </html>
