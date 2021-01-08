@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background: rgba(14, 13, 13, 0.924);
+  background-color: whitesmoke;
   z-index: 1;
 }
 html {
@@ -60,4 +60,118 @@ html {
 .content a:hover {
   background-color: rgba(0, 0, 0, 0.596);
   color: rgba(245, 245, 245, 0.774);
+}
+
+.projecttitle{
+  font-family: emoji;
+  font-size: 2rem;
+  margin: 0rem 0.5rem;
+  font-weight: 600;
+}
+
+.project{
+  width: 19rem;
+  margin: 0.5rem 2rem;
+  background-color: whitesmoke;
+  transition: 0.4s transform ease-in-out;
+}
+
+.project:hover{
+  transform: scale(1.1);
+}
+
+.projectname{
+  margin: 0.2rem 0;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.techstack{
+  margin: 0.3rem 0;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.1rem;
+}
+
+.shortdesc{
+  margin: 1rem 0;
+  text-align: center;
+  font-family: serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.fullstackprojects{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.htmlcssjsprojects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pythonprojects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.projectfluid{
+  position: relative;
+  margin: 1rem 0;
+  width: 90vw;
+  height: 19rem;
+  border-radius: 6px;
+  background-color: whitesmoke;
+}
+
+.projectfluid img{
+  width: 38vw;
+  height: 18rem;
+  border-radius: 4px;
+}
+
+.projectnamefluid{
+  margin: 0.5rem 3rem;
+  font-size: 1.6rem;
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.techstackfluid{
+  margin: 0.2rem 3rem;
+  font-size: 1.2rem;
+  font-family: serif;
+}
+
+.descfluid{
+  text-align: center;
+  margin: 0.7rem 1rem;
+  font-family: serif;
+  font-size: 1.1rem;
+}
+
+.left{
+  width: 48vw;
+  height: 20rem;
+  overflow: auto;
+}
+
+.right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
