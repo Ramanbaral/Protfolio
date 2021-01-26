@@ -134,7 +134,7 @@ html {
 
 .projectfluid img{
   width: 38vw;
-  height: 18rem;
+  height: 19rem;
   border-radius: 4px;
 }
 
@@ -168,6 +168,10 @@ html {
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.left-slider{
+  width: 39vw !important;
 }
 
 .footer{

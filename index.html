@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="I'm a fullstact developer.">
+    <meta name="description" content="I'm a fullstack developer.">
     <meta name="keywords" content="raman baral , Raman Baral , Baral , raman , Raman , fullstack , fullstack developer , django , nodejs , developer , coder , hire developer , coder , programmer , good programmer , freelance coder , freelancing programming , freelancing , python developer , python , javascript developer , javascript , cool developer , cool programmer , HTML , CSS , JS , python , reactjs , django , react native , expressjs , nodejs , web developer , freelancing web developer , developer protfolio">
     <meta name="author" content="Raman Baral">
     
     <title>Raman Baral</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/carousel.css">
     <!-- fonts   -->
     <link
       rel="stylesheet"
@@ -98,21 +99,79 @@
           <div class="left">
             <p class="projectnamefluid">Chat App</p>
             <p class="techstackfluid"> Built with :- HTML, CSS, JS, Socket.io </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+            <p class="descfluid">This is a <b>simple chat app</b> i made with HTML, CSS and a javascript library called socket.io. In this chat app user can enter and chat with other users easily around the world. This is just a prototype for a chat application.</p>
           </div>
           <div class="right">
-            <img src="./images/default.png" alt="Image">
+
+            <div class="carousel">
+              <button class="carousel__btn  carousel__btn--left hide" id="carousel__btn--left1">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track1">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right1">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav1">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+          </div>
+
           </div>
         </div>
 
         <div class="projectfluid">
-          <div class="left">
-            <img src="./images/default.png" alt="Image">
+          <div class="left left-slider">
+            
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left2">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track2">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right2">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav2">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
           <div class="right" style="width: 48vw;">
             <p class="projectnamefluid">Typing Speed Tester</p>
             <p class="techstackfluid" > Built with :- HTML, CSS, Reactjs </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+            <p class="descfluid">This is a <b>typing speed tester</b> web app built with Reactjs. This web app is inspired by 10fastfingers.com. In this app you will be given some words and you have to type them donw. On the basis of how many words you type in 1 minute your speed will be shown.</p>
           </div>
         </div>
 
@@ -120,22 +179,80 @@
           <div class="left">
             <p class="projectnamefluid">Jumping Japak Doremon</p>
             <p class="techstackfluid"> Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+            <p class="descfluid">This is a very <b>simple game</b> built with HTML, CSS and JS. The idea for this game just randomly hit my mind when i was following my morning routine. In this game there is a character called doremon and doracake is his enemy. If he touches doracake then he is dead. The doracake keeps moving and he can jump around and be safe from doracake. This is a cartoon show called doremon and i watched it alot in my childhood. The olny difference between show and the game is the doracake. In show he loves eating doracake but in this game doracake is his enemy. This is a fun project and i enjoyed alot while building it and playing after building.  </p>
           </div>
           <div class="right">
-            <img src="./images/default.png" alt="Image">
+            
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left3">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track3">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right3">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav3">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
         </div>
 
         
         <div class="projectfluid">
-          <div class="left">
-            <img src="./images/default.png" alt="Image">
+          <div class="left left-slider">
+            
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left4">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track4">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right4">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav4">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
           <div class="right" style="width: 48vw;">
             <p class="projectnamefluid">Blog Site</p>
             <p class="techstackfluid" > Built with :- HTML, CSS </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+            <p class="descfluid">This is a <b>Frontend</b> for a blogging website. I build this website because i want to challenge my frontend skill. In this website i build total 5 pages. Home page, About page, Contact page, BlogDetail page and lastly searchresult page. </p>
           </div>
         </div>
 
@@ -143,21 +260,119 @@
           <div class="left">
             <p class="projectnamefluid">Simple Calculator</p>
             <p class="techstackfluid"> Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+            <p class="descfluid">This is a <b>simple Calculator</b> built with HTML, CSS, JS. This calculator can perform multiple operations like addition, subtraction, multiplication, division, etc.. This was fun building. </p>
           </div>
           <div class="right">
-            <img src="./images/default.png" alt="Image">
+            
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left5">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track5">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right5">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav5">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="projectfluid">
+          <div class="left left-slider">
+          
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left6">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track6">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right6">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav6">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+            
+          </div>
+          <div class="right" style="width: 48vw;">
+            <p class="projectnamefluid">Analog Clock</p>
+            <p class="techstackfluid" > Built with :- HTML, CSS, JS </p>
+            <p class="descfluid">This is an <b>Analog clock</b> built with HTML, CSS, JS. This clock shows the current and real time.</p>
           </div>
         </div>
 
         <div class="projectfluid">
           <div class="left">
-            <img src="./images/default.png" alt="Image">
+            <p class="projectnamefluid">Burger Builder</p>
+            <p class="techstackfluid"> Built with :- HTML, CSS, Reactjs </p>
+            <p class="descfluid">This is <b>Burger Builder App</b> built with Reactjs. In this App user can build burger according to their choice and can order their burger. After ordering burger the burger will be stored to our database with exact ingredients that user have choosen.</p>
           </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">Analog Clock</p>
-            <p class="techstackfluid" > Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+          <div class="right">
+            
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left7">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track7">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right7">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav7">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -176,13 +391,71 @@
             <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
           </div>
           <div class="right">
-            <img src="./images/default.png" alt="Image">
+     
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left8">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track8">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right8">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav8">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
         </div>
 
         <div class="projectfluid">
-          <div class="left">
-            <img src="./images/default.png" alt="Image">
+          <div class="left left-slider">
+
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left9">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track9">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right9">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav9">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
           </div>
           <div class="right" style="width: 48vw;">
             <p class="projectnamefluid">ART Gallery</p>
@@ -198,16 +471,121 @@
             <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
           </div>
           <div class="right">
-            <img src="./images/default.png" alt="Image">
+
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left10">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track10">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right10">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav10">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+        <div class="projectfluid">
+          <div class="left left-slider">
+
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left11">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track11">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right11">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav11">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
+          </div>
+          <div class="right" style="width: 48vw;">
+            <p class="projectnamefluid">Tic Tac Toe</p>
+            <p class="techstackfluid" > Built with :- Python</p>
+            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
           </div>
         </div>
 
+        <div class="projectfluid">
+          <div class="left">
+            <p class="projectnamefluid">Password Manager</p>
+            <p class="techstackfluid"> Built with :- Python, Sqlite</p>
+            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
+          </div>
+          <div class="right">
+
+            <div class="carousel">
+              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left12">
+                  <img src="./images/carousel/left.png" alt="">
+              </button>
+              <div class="carousel__track-container">
+      
+                  <ul class="carousel__track" id="carousel__track12">
+                      <li class="carousel__slide current-slide">
+                          <img src="./images/carousel/img-1.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-2.jpg" alt="">
+                      </li>
+                      <li class="carousel__slide">
+                          <img src="./images/carousel/img-3.jpg" alt="">
+                      </li>
+                  </ul>
+      
+              </div>
+              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right12">
+                  <img src="./images/carousel/right.png" alt="">
+              </button>
+              <div class="carousel__nav" id="carousel__nav12">
+                  <button class="carousel__indicator current-indicator"></button>
+                  <button class="carousel__indicator"></button>
+                  <button class="carousel__indicator"></button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
       </div>
-
-
-
-
-
 
     </div>
 
@@ -224,6 +602,7 @@
 
     
     <script src="./js/engine.js"></script>
+    <script src="./js/carousel.js"></script>
     <!-- script to load cover image faster -->
     <script>
       let image = document.getElementById('coverimg')
