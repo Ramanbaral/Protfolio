@@ -1,0 +1,15 @@
+.title{
+	font-size: 9rem;
+    text-align: center;
+    color: darkred;
+    font-family: fantasy;
+}
+
+.author{
+	position: absolute;
+    top: 97%;
+    left: 96%;
+    color: darkblue;
+	cursor: pointer;
+	text-decoration: none;
+}
