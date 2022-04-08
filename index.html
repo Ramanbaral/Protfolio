@@ -1,617 +1,397 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="I'm a fullstack developer.">
-    <meta name="keywords" content="raman baral , Raman Baral , Baral , raman , Raman , fullstack , fullstack developer , django , nodejs , developer , coder , hire developer , coder , programmer , good programmer , freelance coder , freelancing programming , freelancing , python developer , python , javascript developer , javascript , cool developer , cool programmer , HTML , CSS , JS , python , reactjs , django , react native , expressjs , nodejs , web developer , freelancing web developer , developer protfolio">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="I'm a Full-stack Blockchain developer.">
+    <meta name="keywords" content="raman baral , Raman Baral , Baral , raman , Raman , fullstack , fullstack developer , django , nodejs , developer , coder , hire developer , coder , programmer , good programmer , freelance coder , freelancing programming , freelancing , python developer , python , javascript developer , javascript , cool developer , cool programmer , HTML , CSS , JS , python , reactjs , django , react native , expressjs , nodejs , web developer , freelancing web developer , developer protfolio, Blockchain, ethereum, smart contract">
     <meta name="author" content="Raman Baral">
-    
+
     <title>Raman Baral</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
-    <!-- fonts   -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Metal Mania"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Satisfy"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Kaushan Script"
-    />
-    <!-- bootstrapcdn -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <!-- gsap cdn(animation library) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
-
-    <script src="./js/animation.js" defer></script>
-  </head>
-
-  <body>
-    <!-- Image cover -->
-    <div class="cover">
-      <img src="./images/smallimg.jpg" alt="Image" id="coverimg">
-
-      <div class="content">
-        <h1 id="greet">Hi,</h1>
-        <h1 id="intro">I'm <span style="color: red;">R</span>aman,</h1>
-        <h1 id="roletag">Fullstack Developer</h1>
-        <span id="thingsiknow">
-          <small style="font-family:serif;font-size: 104%;">Frontend | Backend | webdesign | wordpress </small>
-        </span>
-        <div class="buttons">
-          <a href="/contact.html" class="btn">Contact me</a>
-          <a href="/about.html" class="btn" style="margin-left: 40px;">About me</a>
-        </div>
-      </div>
-    </div>
-    <!-- Image cover -->
-
-    <!-- projects section -->
-    <div class="projects">
-      <h1 style="text-align: center; font-family: emoji; font-size: 2.7rem;color: lightgreen;">Projects I Have Build...</h1>
-      
-      <p class="projecttitle">
-        Fullstack Projects :
-      </p>
-      <div class="fullstackprojects">
-
-        <div class="project">
-          <img src="./images/default.png" alt="Image" class="projectimage" >
-          <p class="projectname">Hookha Land</p>
-          <p class="techstack"> Built with :- Django, React, Postgresql </p>
-          <p class="shortdesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-        </div>
-
-        <div class="project">
-          <img src="./images/default.png" alt="Image" class="projectimage" >
-          <p class="projectname">Quizzy</p>
-          <p class="techstack"> Built with :- Nodejs, Express, React, Mongodb </p>
-          <p class="shortdesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-        </div>
-
-        <div class="project">
-          <img src="./images/default.png" alt="Image" class="projectimage" >
-          <p class="projectname">sharedo</p>
-          <p class="techstack"> Built with :- Django, Postgresql </p>
-          <p class="shortdesc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-        </div>
-
-      </div>
-
-      <p class="projecttitle">
-        HTML, CSS, JS Projects :
-      </p>
-
-      <div class="htmlcssjsprojects">
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Chat App</p>
-            <p class="techstackfluid"> Built with :- HTML, CSS, JS, Socket.io </p>
-            <p class="descfluid">This is a <b>simple chat app</b> i made with HTML, CSS and a javascript library called socket.io. In this chat app user can enter and chat with other users easily around the world. This is just a prototype for a chat application.</p>
-          </div>
-          <div class="right">
-
-            <div class="carousel">
-              <button class="carousel__btn  carousel__btn--left hide" id="carousel__btn--left1">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track1">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right1">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav1">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-          </div>
-
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left left-slider">
-            
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left2">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track2">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right2">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav2">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/profile.jpeg" alt="">
+                </div>
             </div>
-
-          </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">Typing Speed Tester</p>
-            <p class="techstackfluid" > Built with :- HTML, CSS, Reactjs </p>
-            <p class="descfluid">This is a <b>typing speed tester</b> web app built with Reactjs. This web app is inspired by 10fastfingers.com. In this app you will be given some words and you have to type them donw. On the basis of how many words you type in 1 minute your speed will be shown.</p>
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Jumping Japak Doremon</p>
-            <p class="techstackfluid"> Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">This is a very <b>simple game</b> built with HTML, CSS and JS. The idea for this game just randomly hit my mind when i was following my morning routine. In this game there is a character called doremon and doracake is his enemy. If he touches doracake then he is dead. The doracake keeps moving and he can jump around and be safe from doracake. This is a cartoon show called doremon and i watched it alot in my childhood. The olny difference between show and the game is the doracake. In show he loves eating doracake but in this game doracake is his enemy. This is a fun project and i enjoyed alot while building it and playing after building.  </p>
-          </div>
-          <div class="right">
-            
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left3">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track3">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right3">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav3">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Raman Baral.</span>
+                    A Blockchain Developer.
+                </h1>
+                <p>
+                    Blockchain developer with excellent problem solving skills and ability to perform well in a team. Passionate about Blockchain and enjoy learning new things.
+                </p>
+                <div class="btn-con">
+                    <a href="resume.pdf" class="main-btn">
+                        <span class="btn-text">Download Resume</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
             </div>
-
-          </div>
         </div>
-
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        Hi there! I am raman from Kathmandu, Nepal. I love to learn about blockchain and web3. I have been programming since 2019. <br /> <br />
+                        I develop and deploy fullstack application on blockchain. I am comfortable with EVM compatible chains (ethereum, polygon, BSC). I am very excited about future of Blockchain.
+                    </p>
+                    <div class="btn-con">
+                        <a href="resume.pdf" class="main-btn">
+                            <span class="btn-text">Download Resume</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">10+</p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2+</p>
+                            <p class="small-text">Years of <br /> experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">10+</p>
+                            <p class="small-text">Happy <br /> Clients</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">100+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="skills">
+                        <div class="skill">
+                            <i class="devicon-solidity-plain" style></i>
+                        </div>
         
-        <div class="projectfluid">
-          <div class="left left-slider">
-            
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left4">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track4">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right" id="carousel__btn--right4">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav4">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">Blog Site</p>
-            <p class="techstackfluid" > Built with :- HTML, CSS </p>
-            <p class="descfluid">This is a <b>Frontend</b> for a blogging website. I build this website because i want to challenge my frontend skill. In this website i build total 5 pages. Home page, About page, Contact page, BlogDetail page and lastly searchresult page. </p>
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Simple Calculator</p>
-            <p class="techstackfluid"> Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">This is a <b>simple Calculator</b> built with HTML, CSS, JS. This calculator can perform multiple operations like addition, subtraction, multiplication, division, etc.. This was fun building. </p>
-          </div>
-          <div class="right">
-            
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left5">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track5">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right5">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav5">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left left-slider">
-          
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left6">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track6">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right6">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav6">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-            
-          </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">Analog Clock</p>
-            <p class="techstackfluid" > Built with :- HTML, CSS, JS </p>
-            <p class="descfluid">This is an <b>Analog clock</b> built with HTML, CSS, JS. This clock shows the current and real time.</p>
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Burger Builder</p>
-            <p class="techstackfluid"> Built with :- HTML, CSS, Reactjs </p>
-            <p class="descfluid">This is <b>Burger Builder App</b> built with Reactjs. In this App user can build burger according to their choice and can order their burger. After ordering burger the burger will be stored to our database with exact ingredients that user have choosen.</p>
-          </div>
-          <div class="right">
-            
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left7">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track7">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right7">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav7">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-      <p class="projecttitle">
-        Python Projects :
-      </p>
-
-      <div class="pythonprojects">
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Jarvis AI</p>
-            <p class="techstackfluid"> Built with :- Python</p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-          </div>
-          <div class="right">
-     
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left8">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track8">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right8">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav8">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left left-slider">
-
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left9">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track9">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right9">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav9">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">ART Gallery</p>
-            <p class="techstackfluid" > Built with :- Python, Tkinter</p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Dino Game Automated</p>
-            <p class="techstackfluid"> Built with :- Python</p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-          </div>
-          <div class="right">
-
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left10">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track10">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right10">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav10">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
-            </div>
-
-          </div>
-        </div>
+                        <div class="skill">
+                            <i class="devicon-python-plain"></i>
+                        </div>
         
-        <div class="projectfluid">
-          <div class="left left-slider">
+                        <div class="skill">
+                            <i class="devicon-javascript-plain"></i>
+                        </div>
+                        
+                        <div class="skill">
+                            <i class="devicon-django-plain"></i>
+                        </div>
+        
+                        <div class="skill">
+                            <i class="devicon-react-plain"></i>
+                        </div>
 
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left11">
-                  <img src="./images/carousel/prevbtn.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track11">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/projects_images/tiktactoe-img1.png" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/projects_images/tiktactoe-img2.png" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/projects_images/tiktactoe-img3.png" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right11">
-                  <img src="./images/carousel/nextbtn.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav11">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
+                        <div class="skill">
+                            <i class="devicon-git-plain"></i>
+                        </div>
+
+                        <div class="skill">
+                            <i class="devicon-nodejs-plain"></i>
+                        </div>
+
+                        <div class="skill">
+                            <i class="devicon-thealgorithms-plain"></i>
+                        </div>
+
+                        <div class="skill">
+                            <i class="devicon-vscode-plain"></i>
+                        </div>
+                </div>
             </div>
-
-          </div>
-          <div class="right" style="width: 48vw;">
-            <p class="projectnamefluid">Tic Tac Toe</p>
-            <p class="techstackfluid" > Built with :- Python</p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-          </div>
-        </div>
-
-        <div class="projectfluid">
-          <div class="left">
-            <p class="projectnamefluid">Password Manager</p>
-            <p class="techstackfluid"> Built with :- Python, Sqlite</p>
-            <p class="descfluid">Lorem ipsum dolor, sit amet conslorem  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam soluta accusantium tempore impedit. Natus voluptas assumenda, ipsa corporis atque molestias quae beatae consectetur, saepe, aut fuga cumque! Soluta, voluptatibus minima. ectetur adipisicing elit. Atque eveniet pariatur sit explicabo fugiat numquam obcaecati architecto quod itaque necessitatibus.</p>
-          </div>
-          <div class="right">
-
-            <div class="carousel">
-              <button class="carousel__btn carousel__btn--left hide" id="carousel__btn--left12">
-                  <img src="./images/carousel/left.png" alt="">
-              </button>
-              <div class="carousel__track-container">
-      
-                  <ul class="carousel__track" id="carousel__track12">
-                      <li class="carousel__slide current-slide">
-                          <img src="./images/carousel/img-1.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-2.jpg" alt="">
-                      </li>
-                      <li class="carousel__slide">
-                          <img src="./images/carousel/img-3.jpg" alt="">
-                      </li>
-                  </ul>
-      
-              </div>
-              <button class="carousel__btn carousel__btn--right"  id="carousel__btn--right12">
-                  <img src="./images/carousel/right.png" alt="">
-              </button>
-              <div class="carousel__nav" id="carousel__nav12">
-                  <button class="carousel__indicator current-indicator"></button>
-                  <button class="carousel__indicator"></button>
-                  <button class="carousel__indicator"></button>
-              </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
             </div>
+            <p class="port-text">
+                Here are some of the projects i built on Blockchain.
+            </p>
 
-          </div>
+            <div class="projects">
+                <div class="project">
+                    <div class="left">
+                        <!-- youtube video (demo of that project) -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C787e7JZUiQ" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="right">
+                        <p class="project-title">ShitSwap (DEx)</p>
+                        <p class="project-desc">Shitswap is a Decentralized Exchange built on ethereum blockchain where you can swap your shitcoins for fun.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ramanbaral/ShitSwap-DEX" target="_blank">GitHub</a> <!--  change all text to their respective icons -->
+                            <a href="https://shitswap.netlify.app/" target="_blank">Live website</a>
+                            <a href="https://youtu.be/C787e7JZUiQ" target="_blank">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="left">
+                        <!-- youtube video (demo of that project) -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bEEJOvtNIac" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="right">
+                        <p class="project-title">Learner Name Service (LNS)</p>
+                        <p class="project-desc">LNS is name service built on polygon blockchain for people who are passionate about learning and building new things.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ramanbaral/Learner-Name-Service" target="_blank">GitHub</a> <!--  change all text to their respective icons -->
+                            <a href="https://learner-qjwmnpt9x-ramanbaral.vercel.app/" target="_blank">Live website</a>
+                            <a href="https://youtu.be/bEEJOvtNIac" target="_blank">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="left">
+                        <!-- youtube video (demo of that project) -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/VI7GCb6TpXs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="right">
+                        <p class="project-title">Wave portal</p>
+                        <p class="project-desc">Wave portal is a dapp where you can write a message & wave & also get a chance to win some eth.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ramanbaral/Wave_portal" target="_blank">GitHub</a> <!--  change all text to their respective icons -->
+                            <a href="https://waveportal123.netlify.app/" target="_blank">Live website</a>
+                            <a href="https://youtu.be/VI7GCb6TpXs" target="_blank">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project">
+                    <div class="left">
+                        <!-- youtube video (demo of that project) -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PFJC38lKFRE" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="right">
+                        <p class="project-title">HitCoin (ERC20)</p>
+                        <p class="project-desc">Hitcoin is a ERC20 token built on ethereum blockchain.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/Ramanbaral/HitCoin-ERC20" target="_blank">GitHub</a> <!--  change all text to their respective icons -->
+                            <a href="https://hitcoin.netlify.app/" target="_blank">Live website</a>
+                            <a href="https://youtu.be/PFJC38lKFRE" target="_blank">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="certificates">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2><span>Certifications</span><span class="bg-text">My Certifications</span></h2>
+                </div>
+                <div class="certificates">
+                    <div class="certificate">
+                        <div class="certificate-img">
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/KZTTX6HQJSQ9" target="_blank"> <img src="img/coursera.jpeg" alt="img"> </a>
+                        </div>
+                        <div class="certificate-information">
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/KZTTX6HQJSQ9" target="_blank"> <p class="certificate-title">Blockchain Specialization</p> </a>
+                            <p class="issue-org">Coursera</p>
+                            <p class="issue-date">Issued Mar 2022</p>
+                            <p class="credential-id">Credential ID KZTTX6HQJSQ9</p>
+                            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/KZTTX6HQJSQ9" target="_blank"> <button class="verify-btn">Show credential</button> </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="certificate">
+                        <div class="certificate-img">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/8XP8SJN6RMVG" target="_blank"> <img src="img/coursera.jpeg" alt="img"> </a>
+                        </div>
+                        <div class="certificate-information">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/8XP8SJN6RMVG" target="_blank"> <p class="certificate-title">Introduction to Git and GitHub</p> </a>
+                            <p class="issue-org">Coursera</p>
+                            <p class="issue-date">Issued Mar 2022</p>
+                            <p class="credential-id">Credential ID 8XP8SJN6RMVG</p>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/8XP8SJN6RMVG" target="_blank"> <button class="verify-btn">Show credential</button> </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="certificate">
+                        <div class="certificate-img">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/KMGHLCCFLEQ5" target="_blank"> <img src="img/coursera.jpeg" alt="img"> </a>
+                        </div>
+                        <div class="certificate-information">
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/KMGHLCCFLEQ5" target="_blank"> <p class="certificate-title">Blockchain: Foundations and Use Cases</p> </a>
+                            <p class="issue-org">Coursera</p>
+                            <p class="issue-date">Issued Feb 2022</p>
+                            <p class="credential-id">Credential ID KMGHLCCFLEQ5</p>
+                            <a href="https://www.coursera.org/account/accomplishments/certificate/KMGHLCCFLEQ5" target="_blank"> <button class="verify-btn">Show credential</button> </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="certificate">
+                        <div class="certificate-img">
+                            <a href="https://www.credly.com/badges/a1900008-dc41-436f-a930-17cd033b2c02?source=linked_in_profile" target="_blank"> <img src="img/ibm.jpeg" alt="img"> </a>
+                        </div>
+                        <div class="certificate-information">
+                            <a href="https://www.credly.com/badges/a1900008-dc41-436f-a930-17cd033b2c02?source=linked_in_profile" target="_blank"> <p class="certificate-title">Cybersecurity Fundamentals</p> </a>
+                            <p class="issue-org">IBM</p>
+                            <p class="issue-date">Issued Dec 2021</p>
+                            <!-- <p class="credential-id">Credential ID KZTTX6HQJSQ9</p> -->
+                            <a href="https://www.credly.com/badges/a1900008-dc41-436f-a930-17cd033b2c02?source=linked_in_profile" target="_blank"> <button class="verify-btn">Show credential</button> </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="certificate">
+                        <div class="certificate-img">
+                            <a href="https://www.credly.com/badges/5aa8f52e-a655-45f0-9ba2-d6c7373b88dc/public_url" target="_blank"> <img src="img/ibm.jpeg" alt="img"> </a>
+                        </div>
+                        <div class="certificate-information">
+                            <a href="https://www.credly.com/badges/5aa8f52e-a655-45f0-9ba2-d6c7373b88dc/public_url" target="_blank"> <p class="certificate-title">Cloud Core</p> </a>
+                            <p class="issue-org">IBM</p>
+                            <p class="issue-date">Issued Nov 2021</p>
+                            <!-- <p class="credential-id">Credential ID KZTTX6HQJSQ9</p> -->
+                            <a href="https://www.credly.com/badges/5aa8f52e-a655-45f0-9ba2-d6c7373b88dc/public_url" target="_blank"> <button class="verify-btn">Show credential</button> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
+                </div>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Feel free to contact me!
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    Kathmandu, Nepal
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email-</span>
+                                </div>
+                                <p>
+                                    <span>ramanisstudent@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>+9779864225756</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>English, Hindi</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.linkedin.com/in/raman-baral-a69a081b1/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="https://twitter.com/raman_baral_" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="https://github.com/Ramanbaral" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCWaiMSOjJjrMP1DVpAKEz4w" target="_blank">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="resume.pdf" class="main-btn">
+                                    <span class="btn-text">Download Resume</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
         </div>
-
-
-      </div>
-
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="certificates">
+            <i class="fas fa-certificate"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
     </div>
-
-    <!-- footer  -->
-    <hr style="margin: 0;margin-top: 0.5rem;">
-    <div class="footer">
-      <p style="margin: 1rem 1rem;">
-        © 2020-2021 Raman Baral · <a href="/contact.html">contact</a> · <a href="/about.html">about</a> ·
-      </p>
-
-      <a href="#" style="margin: 1rem 1rem;">Back To Top</a>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
     </div>
-    <!-- footer -->
-
-    
-    <script src="./js/engine.js"></script>
-    <script src="./js/carousel.js"></script>
-    <!-- script to load cover image faster -->
-    <script>
-      let image = document.getElementById('coverimg')
-      let bigimage = document.createElement('img')
-      bigimage.onload = function(){
-        image.src = this.src
-      }
-      bigimage.src = './images/img.jpg'
-    </script>
-
-  </body>
+    <script src="app.js"></script>
+</body>
 </html>
