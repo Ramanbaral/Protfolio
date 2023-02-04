@@ -256,7 +256,7 @@ section {
   background-color: var(--color-grey-5);
 }
 .about-container .left-about {
-  padding-right: 5rem;
+  padding-right: 3rem;
 }
 .about-container .left-about p {
   line-height: 2rem;
